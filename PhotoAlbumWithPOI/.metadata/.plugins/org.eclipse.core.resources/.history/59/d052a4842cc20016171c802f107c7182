@@ -1,0 +1,67 @@
+package Pages;
+
+import org.apache.poi.hwpf.sprm.SprmUtils;
+
+
+
+public class PageGeneral {
+
+	private String text;
+	private String date;
+	private String keywords;
+	private String title;
+	private String path;
+	
+	
+	
+	public PageGeneral(String text, String date, String keywords, String title,String path) {
+		this.path=path;
+		this.text = text;
+		this.date = date;
+		this.keywords = keywords;
+		this.title = title;
+	}
+	
+	
+	public void showDetails(){
+		System.out.println("Date:" +date + " " + "Keywords:" + keywords);
+	}
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+	public int getDate() {
+		if (date.contains("/")) {
+			int x= date.split("/");
+		}else if (date.contains("-")) {
+			date.split("/");
+		}
+		return ;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	public String getKeywords() {
+		return keywords;
+	}
+
+	public void setKeywords(String keywords) {
+		this.keywords = keywords;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
+	
+}

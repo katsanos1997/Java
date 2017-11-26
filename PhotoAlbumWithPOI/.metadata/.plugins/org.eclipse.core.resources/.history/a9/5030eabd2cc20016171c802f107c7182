@@ -1,0 +1,12 @@
+public class Date{
+		public Date(String date){
+			int day=1;
+			int month=1;
+			int year=2010;
+			
+			String split[] = date.split("-");
+			day=Integer.parseInt(split[0]);
+			month=Integer.parseInt(split[1]);
+			year=Integer.parseInt(split[1]);
+		}
+	}

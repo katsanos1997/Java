@@ -1,0 +1,85 @@
+package Album;
+
+import java.util.ArrayList;
+
+import Pages.BlankPage;
+import Pages.ContentPage;
+import Pages.Datedikiamou;
+import Pages.PageGeneral;
+import Pages.PicturePage;
+import Pages.TitlePage;
+
+
+
+public class AlbumGeneral {
+	private ArrayList<PageGeneral> AlbumArray;
+	private String name;
+
+	public AlbumGeneral() {
+         AlbumArray = new ArrayList<PageGeneral>();
+       
+	}
+
+	private void addPage(PageGeneral x) {
+		AlbumArray.add(x);
+	}
+
+	public AlbumGeneral(String n) {
+		AlbumArray = new ArrayList<PageGeneral>();
+		name = n;
+	}
+
+	public void searchAndCreateAlbum() {
+			
+	}
+	public void dikseMeSeiraPouFtiaxtikan(){
+		for (int i=0;i<AlbumArray.size();i++){
+			
+		}
+	}
+	
+	public void dikseMeTaxinomisiMeDate(){
+		
+	}
+	
+	public void sortAl(){
+		ArrayList<PageGeneral> AlbumArraySort = new ArrayList<PageGeneral>();
+		for (int i=0;i<AlbumArray.size()-1;i++){
+			if (AlbumArray.get(i).getDate().year>AlbumArray.get(i+1).getDate().year){
+				
+			}
+		}
+		
+		
+	}
+
+	public PageGeneral showPages() {
+		// for (PageGeneral x:myList){
+
+		// }
+
+		return null;
+
+	}
+	
+	public void createBP() {
+		BlankPage newBlankPage = new BlankPage();
+		addPage(newBlankPage);
+	}
+	
+	public void createCP(String text, String date, String keywords, String title) {
+		ContentPage newContentPage = new ContentPage(text, date,keywords, title);
+		addPage(newContentPage);
+	}
+	
+	public void createPP(String date, String keywords, String title, String path) {
+		PicturePage newPicturePage = new PicturePage(date, keywords,title, path);
+		addPage(newPicturePage);
+	}
+	
+	public void createTP(String title) {
+		TitlePage newTitlePage = new TitlePage(title);
+		addPage(newTitlePage);
+	}
+
+}

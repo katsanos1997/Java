@@ -1,0 +1,83 @@
+import java.util.Scanner;
+
+public class akjgg {
+	public static void main(String[] args) {
+		/*String fileName = new String();
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Enter a file name: ");
+		fileName = keyboard.nextLine();
+		System.out.println(fileName);
+	*/
+		/*Scanner scan = new Scanner(System.in);
+		System.out.print("Enter many words like a sentence: ");
+			String text2;
+			scan.skip(" ");
+			text2 = scan.next();
+			System.out.println(text2);*/
+		if("mpampis kostas dim giannis".contains("dim")){
+			System.out.println("etsi tha to kanoume ");
+		}
+		if("mpampis kostas dim giannis".contains("1")){
+			System.out.println("etsi den tha to kanoume ");
+		}
+		if("mpampis kostas dim giannis".contains("mpampis kos")){
+			System.out.println("den ksero ");
+		}
+		if("mpampis kostas dim giannis".contains("")){
+			System.out.println("Sdcsg");
+		}
+		/////////////
+		
+		
+		String keywords="Santorini Mikonos partouza sirina";
+		String[] x=keywords.split(" ");
+		
+		for(int i=0 ; i<x.length;i++){
+			if(x[i].equals("Mikonos")){
+				System.out.println("nai");
+			}
+		}
+				
+				/*String s = "I want to walk my dog";
+
+		 String[] arr = s.split(" ");    
+
+		 for ( String ss : arr) {
+
+		       System.out.println(ss);*/
+		     
+		
+		/*boolean flag=false;
+		String x[]="kai".split("");
+		int j=0;
+		String p[]="malakai kai poustis hhj".split("");
+		int i = 0;
+		boolean flag1=true;
+		while(flag1){
+		try{	
+		for(i=0 ; i<p.length;i++){
+			if(x[j].equals(p[i])){
+				j++;
+				if(x.length==j){
+					flag=true;
+					break;
+				}
+			}else{
+				j=0;
+			}
+		}
+		
+		if(p[i+1].equals(" ") && flag==true && p[i-3].equals(" ")){
+			System.out.println("to vrikame");
+		}else{
+			System.out.println("den to vrikame ");
+		}
+		if(p.length==i){
+			flag1=false;
+		}
+		}catch (Exception e){
+			break;
+		}
+	}*/
+}
+}

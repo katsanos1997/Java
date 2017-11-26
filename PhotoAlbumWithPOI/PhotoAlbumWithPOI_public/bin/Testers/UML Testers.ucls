@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.12" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="Testers.AlbumGeneralTest" project="PhotoAlbumWithPOI_public" 
+    file="/PhotoAlbumWithPOI_public/src/Testers/AlbumGeneralTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="270" y="181"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Testers.BasicAlbumTest" project="PhotoAlbumWithPOI_public" 
+    file="/PhotoAlbumWithPOI_public/src/Testers/BasicAlbumTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="679" y="173"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Testers.ContentPageTest" project="PhotoAlbumWithPOI_public" 
+    file="/PhotoAlbumWithPOI_public/src/Testers/ContentPageTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="145" x="236" y="357"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Testers.BlankPageTest" project="PhotoAlbumWithPOI_public" 
+    file="/PhotoAlbumWithPOI_public/src/Testers/BlankPageTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="145" x="421" y="357"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Testers.PageGeneralTest" project="PhotoAlbumWithPOI_public" 
+    file="/PhotoAlbumWithPOI_public/src/Testers/PageGeneralTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="145" x="606" y="357"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Testers.PicturePageTest" project="PhotoAlbumWithPOI_public" 
+    file="/PhotoAlbumWithPOI_public/src/Testers/PicturePageTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="145" x="791" y="357"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="Testers.TitlePageTest" project="PhotoAlbumWithPOI_public" 
+    file="/PhotoAlbumWithPOI_public/src/Testers/TitlePageTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="145" x="976" y="357"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="Testers.ProducedAlbumTest" project="PhotoAlbumWithPOI_public" 
+    file="/PhotoAlbumWithPOI_public/src/Testers/ProducedAlbumTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="145" x="1161" y="357"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
